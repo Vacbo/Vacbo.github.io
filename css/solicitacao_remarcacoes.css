@@ -1,0 +1,110 @@
+.setinha{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 1.2rem;
+    width: auto;
+    margin-left: 0.25rem;
+    margin-top: 0.6rem;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:3rem;
+    border-bottom: 2px solid black;
+    margin-bottom: 0.8rem;
+    background-color: #3b5998;
+
+}
+
+header h1{
+    
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    
+}
+.informacoes{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+.pre_concluidas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.espacamento{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.espacamento li{
+    margin-bottom: 0.4rem;
+}
+.Titulo{
+    border-bottom: 2px solid black;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.troca{
+    font-size:16px ;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #3b5998;
+}
+.espaco{
+    width: 100%;
+}
+.opcoes{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px #3b5998;
+    border-style: dashed;
+    margin-bottom: 0.5rem;
+}
+.opcoes li{
+    border: 2px solid black;
+    border-style:groove;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #f7f7f7;
+}
+.link{
+    text-decoration: none;
+    color:black;
+}
+.calendario{
+    text-decoration: none;
+    color:white;
+    border: 2px solid black;
+    border-radius: 60%;
+    padding: 0.5rem;
+    background-color: #8b9dc3;
+
+}

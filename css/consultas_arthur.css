@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+}
+header h1 {
+    font-size: 2rem;
+}
+.espaco{
+    margin-top: 1rem;
+}
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-bottom: .1rem solid black;}
+h2 {
+        font-size: 1.8rem;
+        margin-right: 2rem;
+    }
+p{
+    font-size: 1.35rem;
+}
+.seta {
+    position: absolute;
+    height: 3rem;
+    width: auto;
+    top: 0;
+    left:0;
+}
+.lupa{
+    position: absolute;
+    height: 2rem;
+    width: auto;
+    top: 0;
+    right: 0;
+    padding: 0.7rem;
+}
+.sinal{
+    top: 0;
+    position: absolute;
+    height: 2rem;
+    width: auto;
+    top: 0;
+    right: 50px;
+    padding: 0.7rem;}
+
+
+main {height: 90%;
+}

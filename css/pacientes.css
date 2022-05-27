@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-bottom: .1rem solid black;}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.35rem;
+}
+h1 {
+        font-size: 2rem;
+        margin-right: 2rem;
+        position: absolute;
+    }
+.seta {
+    position: absolute;
+    height: 3rem;
+    width: auto;
+    top: 0;
+    left:0;
+}
+.lupa{
+    position: absolute;
+    height: 2rem;
+    width: auto;
+    top: 0;
+    right: 0;
+    padding: 0.7rem;
+}
+.sinal{
+    position: absolute;
+    height: 2rem;
+    width: auto;
+    top: 0;
+    padding: 0.7rem;
+    right: 50px;
+}
+.classeA{
+    margin-top: 1rem;
+}
+
+main {height: 90%;
+}
+    

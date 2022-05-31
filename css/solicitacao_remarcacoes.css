@@ -5,7 +5,7 @@
     height: 1.2rem;
     width: auto;
     margin-left: 0.25rem;
-    margin-top: 0.6rem;
+    margin-top: 0.25rem;
 
 }
 body{
@@ -61,6 +61,8 @@ main{
 }
 .espacamento li{
     margin-bottom: 0.4rem;
+    margin-left: 1rem;
+    margin-left:1rem;
 }
 .Titulo{
     border-bottom: 2px solid black;
@@ -73,7 +75,7 @@ main{
 .troca{
     font-size:16px ;
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
     color: #3b5998;
 }
 .espaco{
@@ -87,11 +89,14 @@ main{
     border-bottom: 1px #3b5998;
     border-style: dashed;
     margin-bottom: 0.5rem;
+    margin-left: 0rem;
+    padding-bottom: 0.5rem;
 }
 .opcoes li{
     border: 2px solid black;
     border-style:groove;
     padding: 0.5rem;
+    margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     background-color: #f7f7f7;
 }
@@ -103,8 +108,9 @@ main{
     text-decoration: none;
     color:white;
     border: 2px solid black;
-    border-radius: 60%;
+    border-radius: 15px;
     padding: 0.5rem;
     background-color: #8b9dc3;
-
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
 }

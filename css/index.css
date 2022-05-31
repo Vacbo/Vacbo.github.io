@@ -63,7 +63,7 @@ p{
 }
 
 .agenda-img{
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
@@ -73,7 +73,7 @@ main{
 }
 
 .calendar-img{
-    width: 85%;
+    width: 80%;
     height: auto;
     margin-top: 1rem;
 }

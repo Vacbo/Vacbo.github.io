@@ -7,6 +7,7 @@ header h1 {
 .espaco{
     margin-top: 1rem;
 }
+
 header {
     position: relative;
     display: flex;
@@ -15,8 +16,9 @@ header {
     height: 3rem;
     border-bottom: .1rem solid black;}
 h2 {
-        font-size: 1.8rem;
         margin-right: 2rem;
+        font-weight: bolder;
+        font-size: 1.8rem;
     }
 p{
     font-size: 1.35rem;
@@ -47,4 +49,6 @@ p{
 
 
 main {height: 90%;
+    padding-left: 3rem;
+    padding-top: 0rem;;
 }

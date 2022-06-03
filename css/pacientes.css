@@ -1,7 +1,6 @@
 html {
     height: 100%;
 }
-
 header {
     position: relative;
     display: flex;
@@ -44,8 +43,26 @@ h1 {
 }
 .classeA{
     margin-top: 1rem;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    
 }
+.classeA1{
+    margin-top: 1rem;
+    
+}
+.classeB{
+    margin-top: 1rem;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.classeB1{
+    margin-top: 1rem;
+    }
 
-main {height: 90%;
+main {
+    height: 90%;
+    padding-left: 3rem;
+    padding-top: 0rem;
 }
     

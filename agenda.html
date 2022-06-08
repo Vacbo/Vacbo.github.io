@@ -10,13 +10,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Lora:wght@500&family=Roboto:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
-        <script> src = js/agenda.js</script>
+        <script src = "../js/agenda.js"></script>
     </head>
 
     <body>
         <header>
             <a href = index.html>
-                <img  src = ../photos/setinha_voltar.png class="seta" alt="Setinha para voltar">
+                <img  src = ../photos/setinha_voltar.png class="seta" id="seg" alt="Setinha para voltar">
             </a>      
             <h1> AGENDA </h1>
         </header>
@@ -26,7 +26,7 @@
                 <li>
                     <p>
                         Segunda-Feira
-                        <img src = '../photos/editar.png' class = 'editar' alt = 'botao de editar'>
+                        <img src = '../photos/editar.png' class = 'editar' id="seg" alt = 'botao de editar'>
                     </p>
                     
                 </li>
@@ -34,7 +34,7 @@
                 <li>
                     <p>
                         Terça-Feira
-                        <img src = '../photos/editar.png' class = 'editar' alt = 'botao de editar'>
+                        <img src = '../photos/editar.png' class = 'editar' id="ter" alt = 'botao de editar'>
                     </p>
                     
                 </li>
@@ -42,7 +42,7 @@
                 <li>
                     <p>
                         Quarta-Feira
-                        <img src = '../photos/editar.png' class = 'editar' alt = 'botao de editar'>
+                        <img src = '../photos/editar.png' class = 'editar' id="qua" alt = 'botao de editar'>
                     </p>
                     
                 </li>
@@ -50,7 +50,7 @@
                 <li>
                     <p>
                         Quinta-Feira
-                        <img src="../photos/editar.png" class="editar" alt="botao de editar">
+                        <img src="../photos/editar.png" class="editar" id="qui" alt="botao de editar">
                     </p>
                     
                     <ul class = 'rotina'><li> 9:30 - Consulta Guilherme </li></ul>
@@ -60,12 +60,15 @@
                 <li>
                     <p>
                         Sexta-Feira
-                        <img src = '../photos/editar.png' class = 'editar' alt = 'botao de editar'>
+                        <img src = '../photos/editar.png' class = 'editar' id="sex" alt = 'botao de editar'>
                     </p>
                     
                 </li>
             </ul> 
-                
+            <div class="pop-up">
+                <input type="text" placeholder="Adicione evento" class="input" name="evento">
+                <button type="submit" class="add">Adicionar</button>
+            </div>
         </main>
 
         <footer> 

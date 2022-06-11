@@ -37,7 +37,18 @@ document.addEventListener('DOMContentLoaded', function() {
             openPopUp()
             adicionar.addEventListener('click', function(event) {
                 localStorage.setItem("Evento",input.value)
+                texto = localStorage.getItem("Evento")
                 closePopUp()
+                input.value = '';
+                if (texto != ''){
+                    avo = t.parentNode.parentNode
+                    ul = document.createElement('ul')
+                    ul.classList.add('rotina')
+                    li = document.createElement('li')
+                    li.innerHTML = texto
+                    ul.appendChild(li)
+                    avo.appendChild(ul)
+                }
             })
 
         })

@@ -71,4 +71,34 @@ main ul{
 
 }
 
+.editarpp{
+    height: 1rem;
+}
+
+input{
+    border: none;
+}
+
+.pop-up{
+    display: none;
+    position: absolute;
+    z-index: 9;
+    top: 32.5rem;
+    left: 2.2rem;
+}
+
+#academico{
+    top: 14.5rem;
+    left: 4.5rem;
+}
+
+#horario{
+    top: 19.8rem;
+    left: 3rem;
+}
+
+#depoimento{
+    top: 24.8rem;
+    left: 3rem;
+}
 

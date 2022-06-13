@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Lora:wght@500&family=Roboto:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
-    
+    <script src = "../js/perfil.js"></script>
     
 </head>
 
@@ -30,7 +30,9 @@
         <ul>
                 <li><img class="fotoperfil"  src="../photos/perfil_pisicologa.png" alt="profile"> </li>
 
-                <li class="alma">Jornada Academica</li>
+                <li class="alma">Jornada Academica
+                    <img src="../photos/editar.png" class="editarpp" id="acad" alt="botao de editar">
+                </li>
                 <li>
                     <ul class="info">
                             <li> -------------------------------</li>
@@ -40,7 +42,9 @@
                     </ul>
                 </li>
     
-                <li class="alma">Horarios disponiveis </li>
+                <li class="alma">Horarios disponiveis 
+                    <img src="../photos/editar.png" class="editarpp" id="hor" alt="botao de editar">
+                </li>
                 <li>
                     <ul class="info">
                         <li>--------------------------------------</li>
@@ -48,7 +52,9 @@
                         <li>--------------------------------------</li>
                     </ul>
                 </li>
-                <li class="alma">Depoimentos dos pacientes</li>
+                <li class="alma">Depoimentos dos pacientes
+                    <img src="../photos/editar.png" class="editarpp" id="dep" alt="botao de editar">
+                </li>
                 <li>
                     <ul class="info">
                         <li>--------------------------------------</li>
@@ -59,6 +65,10 @@
                 </li>   
         </ul> 
         
+        <div class="pop-up">
+            <input type="text" placeholder="Adicione evento" class="input" name="evento">
+            <button type="submit" class="add">Adicionar</button>
+        </div>
 
     </main>
 

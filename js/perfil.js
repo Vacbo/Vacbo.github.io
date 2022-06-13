@@ -1,27 +1,22 @@
 document.addEventListener('DOMContentLoaded', function() {
-    editars = document.querySelectorAll('.editar')
+    editars = document.querySelectorAll('.editarpp')
     popUp = document.querySelector('.pop-up')
     adicionar = document.querySelector('.add')
     input = document.querySelector('.input')
+    
     function changePosition(t){
-       id =  t.getAttribute('id')
-       if (id == 'seg'){
-            popUp.setAttribute('id', 'segunda')  
-       }
-       else if (id == 'ter'){
-            popUp.setAttribute('id', 'terca')  
-       }
-       else if (id == 'qua'){
-            popUp.setAttribute('id', 'quarta')  
-       }
-       else if (id == 'qui'){
-            popUp.setAttribute('id', 'quinta')  
-       }
-       else if (id == 'sex'){
-           popUp.setAttribute('id','sexta')
-       }
+        id =  t.getAttribute('id')
+        if (id == 'acad'){
+            popUp.setAttribute('id', 'academico')  
+        }
+        else if (id == 'hor'){
+            popUp.setAttribute('id', 'horario')  
+        }
+        else if (id == 'dep'){
+            popUp.setAttribute('id', 'depoimento')  
+        }
     }
-
+    
     function openPopUp() {
         popUp.style.display = "block";
     }
@@ -50,6 +45,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     avo.appendChild(ul)
                 }
             })
+
         })
+    
     }
+
 })

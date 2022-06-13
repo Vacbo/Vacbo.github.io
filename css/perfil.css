@@ -60,7 +60,7 @@ main ul{
 .alma{
     font-weight: bold;
     text-decoration: underline;
-    margin-top:0.5rem; 
+    margin-top:3rem; 
     margin-bottom: 0.5rem;
     color:#3b5998
 }
@@ -88,17 +88,17 @@ input{
 }
 
 #academico{
-    top: 14.5rem;
+    top: 18.5em;
     left: 4.5rem;
 }
 
 #horario{
-    top: 19.8rem;
-    left: 3rem;
+    top: 24rem;
+    left: 4.5rem;
 }
 
 #depoimento{
-    top: 24.8rem;
-    left: 3rem;
+    top: 30rem;
+    left: 4.5rem;
 }
 

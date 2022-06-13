@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     popUp = document.querySelector('.pop-up')
     adicionar = document.querySelector('.add')
     input = document.querySelector('.input')
-    
     function changePosition(t){
         id =  t.getAttribute('id')
         if (id == 'acad'){
@@ -36,13 +35,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 closePopUp()
                 input.value = '';
                 if (texto != ''){
-                    avo = t.parentNode.parentNode
-                    ul = document.createElement('ul')
-                    ul.classList.add('rotina')
+                    txtacad = document.querySelector('#txtacad')
+                    txthor = document.querySelector('#txthor')
+                    txtdep = document.querySelector('#txtdep')
                     li = document.createElement('li')
-                    li.innerHTML = texto
-                    ul.appendChild(li)
-                    avo.appendChild(ul)
+                    li.innerHTML = '-'
+                    li.innerHTML += texto
+                    if (id == 'acad'){
+                        txtacad.appendChild(li)
+                    }
+                    else if (id == 'hor'){
+                        txthor.appendChild(li)
+                    }
+                    else if (id == 'dep'){
+                        txtdep.appendChild(li) 
+                    }
                 }
             })
 
